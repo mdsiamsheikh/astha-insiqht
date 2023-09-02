@@ -34,9 +34,9 @@ nav {
 
 .logo h1 {
   font-family: Arial, sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
-  color: #8400ff;
+  color: #160068;
   animation: fadeInOut 4s linear infinite;
 }
 
@@ -62,12 +62,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #212055;
+  color: #5655a1;
   text-decoration: none;
   font-weight: bold;
 }
 nav ul li a:hover {
-  color: #f50000; /* Set the color on hover */
+  color: #160068;
 }
 
 /* Rest of the CSS styles */
@@ -236,7 +236,6 @@ nav ul li a:hover {
   animation-fill-mode: forwards;
 }
 .project:hover {
-  /* Your hover styles for .project */
   background-color: #00e1ff;
 }
 
@@ -277,7 +276,7 @@ nav ul li a:hover {
 }
 
 .project:hover {
-  transform: scale(1.1); /* Increase the scale on hover */
+  transform: scale(1.1);
 }
 
 .project img {
@@ -550,15 +549,15 @@ nav ul li a:hover {
   padding: 50px;
   text-align: center;
   color: #000000;
-  background: linear-gradient(to bottom, #fcdff8, #fffcd3);
+  background: linear-gradient(to bottom, #d0aee7, #e7929a);
 }
 #about-s b {
-  background-color: rgb(229, 255, 134);
+  background-color: rgb(198, 214, 141);
   padding: 5px;
   border-radius: 5px;
 }
 #about-s h2 {
-  background: linear-gradient(to bottom, #ffffff, #727242);
+  background: linear-gradient(to bottom, #ffffff, #1da716);
   font-size: 28px;
   color: #1e6363;
   padding: 10px;
@@ -571,8 +570,6 @@ nav ul li a:hover {
   line-height: 1.5;
   text-align: justify;
 }
-
-/* Rest of the CSS styles */
 
 #contact-us {
   display: flex;
@@ -629,12 +626,10 @@ nav ul li a:hover {
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 .contact-form button:hover {
-  background-color: #0c0052; /* Change to your desired hover background color */
-  color: #ffffff; /* Change to your desired hover text color */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Change to your desired hover box shadow */
+  background-color: #0c0052;
+  color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
-
-/* Rest of the CSS styles */
 
 footer {
   background-color: #040011;
@@ -732,7 +727,7 @@ footer {
 
 .counter-option:hover {
   transform: translateY(-5px);
-  background: linear-gradient(to bottom, #ffeffe, #0dffeb);
+  background: linear-gradient(to bottom, #ffeffe, #d914a0);
 }
 @keyframes counterAnimation {
   0% {
