@@ -204,7 +204,7 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 .service:hover {
-  transform: scale(1.1); /* Increase the scale on hover */
+  transform: scale(1.1);
 }
 
 .service-image img {
@@ -323,7 +323,7 @@ nav ul li a:hover {
 }
 .product-option:hover {
   background: linear-gradient(to right, #ff8dec, #ccf809);
-  transform: scale(1.1); /* Increase the scale on hover */
+  transform: scale(1.1);
 }
 
 .product-option {
@@ -337,7 +337,7 @@ nav ul li a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: linear-gradient(to right, #004f99, #25f5fc);
   transition: background 0.3s ease;
-  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  transition: transform 0.3s ease;
 }
 
 .product-option img {
@@ -391,11 +391,11 @@ nav ul li a:hover {
 .photo img {
   max-width: 100%;
   height: auto;
-  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  transition: transform 0.3s ease;
 }
 .photo img:hover {
   background: linear-gradient(to right, #ff8dec, #ccf809);
-  transform: scale(1.1); /* Increase the scale on hover */
+  transform: scale(1.1);
 }
 
 .description {
@@ -632,7 +632,7 @@ nav ul li a:hover {
 }
 
 footer {
-  background-color: #040011;
+  background-color: #181a2f;
   color: #fff;
   padding: 50px;
   text-align: center;
@@ -685,8 +685,8 @@ footer {
 
 .social-media a {
   display: inline-block;
-  width: 30px; /* Adjust the width as needed */
-  height: 30px; /* Adjust the height as needed */
+  width: 30px;
+  height: 30px;
 }
 
 .social-media img {
@@ -694,17 +694,13 @@ footer {
   height: 100%;
 }
 
-/* Add hover effects or other styles as desired */
 .social-media a:hover {
-  /* Example hover effect */
   opacity: 0.8;
 }
 
 .footer-text {
   font-size: 12px;
 }
-
-/*school_management*/
 
 .counter {
   display: flex;
@@ -851,7 +847,7 @@ footer {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: linear-gradient(45deg, #9600a3, #fc0000);
+  /* background: linear-gradient(45deg, #9600a3, #fc0000); */
   color: #fff;
   display: flex;
   justify-content: center;
@@ -870,7 +866,7 @@ footer {
 .feature-title {
   font-size: 25px;
   margin-bottom: 5px;
-  background: linear-gradient(45deg, #ffffff, #b697ff);
+  background: linear-gradient(45deg, #af64dd, #8a83eb);
   color: #000000;
   text-align: center;
   animation: titleAnimation 3s infinite;
@@ -905,8 +901,6 @@ footer {
   text-align: center;
   color: #0c0052;
 }
-
-/*learn_development*/
 
 #student-reviews {
   background-color: #f8f8f8;
